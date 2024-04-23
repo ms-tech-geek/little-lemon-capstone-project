@@ -1,5 +1,6 @@
 import logo from './assets/logo.svg';
 import Nav from './Nav';
+import './App.css';
 
 const Footer = () => {
   const navMenu = [
@@ -30,7 +31,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer>
+    <footer className="container">
       <img src={logo} alt="logo" />
       <div>
         Doormat Navigation

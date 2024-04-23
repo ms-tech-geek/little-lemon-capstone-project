@@ -1,5 +1,6 @@
 import Nav from './Nav.js';
 import logo from './assets/logo.svg';
+import './App.css';
 
 const Header = () => {
   const navMenu = [
@@ -29,7 +30,7 @@ const Header = () => {
     },
   ];
   return (
-    <header>
+    <header className="container">
       <img src={logo} alt="logo" />
       <Nav navMenu={navMenu} />
     </header>
